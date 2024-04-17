@@ -1,6 +1,6 @@
 #Copyright ©️ 2022 TeLe TiPs. All Rights Reserved
 #You are free to use this code in any of your project, but you MUST include the following in your README.md (Copy & paste)
-# ##Credits - [MediaToTelegraphLink bot by TeLe TiPs] (https://github.com/teletips/MediaToTelegraphLink-TeLeTiPs)
+# ##Credits - [MediaToTelegraphLink bot by TeLe TiPs] (https://github.com/firsthub19/mdbotmd)
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
@@ -9,9 +9,9 @@ import os
 
 teletips=Client(
     "MediaToTelegraphLink",
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"],
-    bot_token = os.environ["BOT_TOKEN"]
+    api_id = int(os.environ["22410413"]),
+    api_hash = os.environ["5be39e316e3647868c1b651b318c1077"],
+    bot_token = os.environ["6467268869:AAGl8GlUXtFaOwDtJMlXukXjMdggSW3OFmU"]
 )
 
 @teletips.on_message(filters.command('start') & filters.private)
