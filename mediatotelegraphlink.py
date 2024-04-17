@@ -8,7 +8,7 @@ from telegraph import upload_file
 import os
 
 teletips=Client(
-    "MediaToTelegraphLink",
+    "mediaegest",
     api_id = int(os.environ["22410413"]),
     api_hash = os.environ["5be39e316e3647868c1b651b318c1077"],
     bot_token = os.environ["6467268869:AAGl8GlUXtFaOwDtJMlXukXjMdggSW3OFmU"]
